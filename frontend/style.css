@@ -1,0 +1,103 @@
+body,
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header-row {
+    background-color: #461800;
+    color: white;
+    font-size: 40px;
+    position: static;
+}
+
+#header-text {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+#header-text>span {
+    font-size: 20px;
+    color: #ccc;
+}
+
+#image-container {
+    /* background-color: #363674; */
+    height: fit-content;
+    max-width: min-content;
+}
+
+.fas,
+.fas~span {
+    display: inline;
+}
+
+.contact-tab {
+    /* width: 100%;  */
+    /* height: 100%; */
+    /* background-color: #363674; */
+}
+
+.contact-text {
+    margin-left: 25px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info-header {
+    color: #431801;
+    text-align: center;
+}
+
+.experience-card {
+    max-width: 95%;
+    min-height: 153px
+}
+
+
+/** Professional skills */
+
+.badge {
+    font-size: 25px;
+    font-weight: 200
+}
+
+.badge i {
+    font-size: 20px;
+    font-weight: 200
+}
+
+.about-rating {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px
+}
+
+.total-ratings {
+    font-size: 12px
+}
+
+.bg-custom {
+    background-color: #b7dd29 !important
+}
+
+.progress {
+    margin-top: 10px
+}
+
+#progress-value {
+    float: right;
+}
+
+.social-icons {
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    /* width: 100% */
+}
